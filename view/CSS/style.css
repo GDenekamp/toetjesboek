@@ -1,0 +1,113 @@
+/*
+* 
+* Naam:            Maurice de Graaf, Gerben Denekamp
+* Versie:          2
+* Scriptnaam:      style.css
+* 
+* Gemaakt door:    Maurice de Graaf, Gerben Denekamp
+* Hulp van:        Internet
+* 
+* Doel van script: opmaak van de website
+* 
+*
+*/
+body
+{
+	background-color:	#e8e8e8;
+	margin:				0;
+	padding:			0;
+}
+p
+{
+	margin:				0;
+	padding:			0;
+}
+h2
+{
+	margin-left:		5px;
+}
+
+header.gerechtnaam h2, header h2
+{
+	color:				rgba(238, 238, 238, 0.88);
+}
+
+h1
+{
+	color:				#262626;
+	width:				600px;
+	margin:				0 auto;
+	text-align:			center;
+}
+
+.content
+{
+	background:			transparent url('../images/background.png');
+	background-repeat:	repeat;
+	width:				600px;
+	margin:				0 auto;
+	box-shadow:			1px 2px 2px 2px #888888;
+	border-radius:		5px;
+}
+
+.homeDivs
+{
+	margin-top:			10px;
+	margin-left:		5px;
+	margin-right:		5px;
+	border-radius:		3px;
+	padding:			0px 4px 0px 4px;
+	background-color:	rgba(238, 238, 238, 0.88);
+}
+
+.homeDivs p 
+{
+	padding:			2px 3px 2px 3px;
+}
+
+.linkDiv
+{
+	padding:			2px 5px 2px 5px;
+}
+
+.linkDiv p a, .linkDiv p a:visited
+{
+	color:				#f2f2f2;
+}
+
+.tijdEnEnergie
+{
+	float:				left;
+}
+
+.aantalPersonen
+{
+	float:				right;
+}
+
+div.content-index
+{
+	width:				600px;
+	margin:				0 auto;
+	box-shadow:			1px 2px 2px 2px #888888;
+	border-radius:		5px;
+	background:			#f2f2f2;
+}
+
+div.content-index div.form
+{
+	width:				300px;
+	margin:				0 auto;
+}
+
+div.content-index div.form h1
+{
+	width:				300px;
+	text-align:			center;
+}
+footer
+{
+	width:				600px;
+	margin:				0 auto;
+	margin-top:			5px;
+}
